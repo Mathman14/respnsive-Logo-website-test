@@ -11,8 +11,7 @@
     
     margin-top: 10rem;
     max-width: 100vw;
-    width: calc(100vw);
-    height:calc(46vh + 10px);
+    height:43rem;
     background-color:rgb(200, 26, 41);
     display: flex;
     
@@ -29,46 +28,46 @@
 }
 .left-svg  {
     position: absolute;
-    width:calc(30vw + 2em);
+    width:25vw;
     height:100%;
     opacity: 0.2;
     
 }
-#supplier-text  {
+.supplier-text  {
     max-width:30vw;
-    width:calc(35vw - 1rem) ;
+    width:calc(35vw) ;
 
-    font-size:  calc(4vw + 1rem);
+    font-size:  calc(3vw + 1rem);
     color: white;
     font-weight: bolder;
     font-family:monospace;
-    margin-top: 3rem;
-    margin-left: calc(3.5rem);
-    line-height:calc(2vw + 2rem);
+    margin-top: 6rem;
+    margin-left: calc(11.5rem);
+    line-height:calc(2vw + 3rem);
     
 }
 span  {
-    font-size: calc(4vw - 8px);
+    font-size: calc(3.5vw - 8px);
 }
-#child-text  {
-    font-size: calc(1.6vw - 5px );
-    margin-top: 1rem;
-    margin-left: 3.5rem;
+.child-text  {
+    /*font-size: calc(1.6vw - 5px );*/
+    font-size:25px;
+    margin-top: 2rem;
+    margin-left: 11.5rem;
     color: white;
     opacity: 0.7;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    max-width: 20rem;
-    width:max(40vw,50rem);
-    line-height: calc(1vw + 10px);
+    width:35rem;
+    line-height: calc(1vw + 20px);
 }
 button  {
-    width:calc(20vw + 10px);
-    height: 3rem;
+    width:calc(10vw);
+    height: 4.5rem;
     border-radius: 15px;
-    font-size:calc(1.8vw - 2px);
+    font-size:calc();
     border: none;
-    margin-left: 3.5rem;
-    margin-top: 1rem;
+    margin-left: 10.5rem;
+    margin-top:4.2rem;
 }
 .left-part  {
     position: relative;
@@ -77,30 +76,28 @@ button  {
     
     
 }
-#top-right-svg  {
+.top-right-svg  {
     position:absolute; 
-    left:-26rem;
-    max-width: 100em;
-    width:min(70vw,100rem );
+    left:-22rem;
+    width:90rem;
     opacity: 0.2;
-    height: min(30vw,19rem);
-    gap: 10px;
+    height: 30rem;
     
     
 }
-#btm-right-svg  {
+.btm-right-svg  {
     position:absolute ;
     margin-top: calc(10px);
-    height:min(47vh,35rem);
-    left:-17rem;
-    width:min(70vw,110rem);
+    height: 44rem;
+    left:27.5rem;
+    width:47rem;
     opacity: 0.2;
-    gap: 10px;
+    top:-1rem;
 } 
 .list-1  {
     position: relative;
     top: 4rem;
-    left: -6rem;
+    left: 3.5rem;
     font-size: 30px;
 
 
@@ -114,7 +111,7 @@ button  {
 }
 .list-1 .list1-text  {
     padding-top: 4px;
-    width: max(40vw,25rem);
+    width: max(40vw,30rem);
     font-size: calc(1.6vw - 6px);
     color: white;
     opacity: 0.7;
@@ -126,7 +123,7 @@ button  {
 .list-2  {
     position:relative;
     top: 5rem;
-    left: -6rem;
+    left: 3.5rem;
     font-size: 30px;
 }
 .list-2 .list2-head  {
@@ -146,7 +143,7 @@ button  {
 .list-3  {
     position: relative;
     top: 6rem;
-    left: -6rem;
+    left: 3.5rem;
     font-size: 30px;
 }
 .list-3 .list3-head  {
@@ -156,10 +153,424 @@ button  {
 }
 .list-3 .list3-text  {
     padding-top: 4px;
-    width: max(40vw,25rem);
+    width: max(40vw,30rem);
     font-size: calc(1.6vw - 6px);
     color: white;
     opacity: 0.7;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
+@media only screen and (max-width:2630px) {
+    .top-right-svg {
+        margin-left: -4rem;
+    }
+
+    .btm-right-svg {
+        margin-left: -4.4rem;
+    }
+}
+
+
+@media only screen and (max-width:2520px)  {
+    .main-body  {
+        height:46rem;
+
+    }
+    .supplier-text  {
+        line-height: 7rem;
+    }
+    .child-text  {
+        margin-top: 3.5rem;
+    }
+    button  {
+        margin-top: 5rem;
+        
+    }
+    .top-right-svg  {
+        margin-left: -7rem;
+        height: 34rem;
+        margin-top: -0.2rem;
+
+    }
+    .btm-right-svg  {
+        margin-left: -7.4rem;
+        margin-top: 4rem;
+    }
+   .list-1  {
+    margin-top:1.5rem;
+   }
+   .list-2  {
+    margin-top:1.9rem;
+   }
+   .list-3  {
+    margin-top: 1.9rem;
+   }
+
+
+
+}
+@media only screen and (max-width:2366px)  {
+    .main-body  {
+        height: 42rem;
+    }
+    .child-text  {
+        margin-top: 0px;
+    }
+    .top-right-svg  {
+        margin-left: -11.6rem;
+        height: 30rem;
+    }
+    .btm-right-svg  {
+        margin-left: -12.0rem;
+        height: 40rem;
+    }
+    .list-1 .list1-text  {
+        width: max(35vw,5rem);
+    }
+    .list-2 .list2-text  {
+        width: max(32vw,5rem);
+    }
+    .list-3 .list3-text  {
+        width: max(30vw,5rem);
+    }
+}
+@media only screen and (max-width:2160px)  {
+    .main-body  {
+        height: 40rem;
+    }
+    .top-right-svg  {
+        height: 26rem;
+        margin-left: -18rem;
+    }
+    .btm-right-svg  {
+        margin-left: -18.4rem;
+        margin-top: 1rem;
+    }
+}
+@media only screen and (max-width:2024px)  {
+    .top-right-svg  {
+        height: 26rem;
+        width: 80rem;
+        margin-left:-13rem;
+    }
+    .btm-right-svg  {
+        width:40rem;
+        margin-left: -16rem;
+    }
+}
+@media only screen and (max-width:1886px)  {
+    .main-body  {
+        height: 38rem;
+    }
+    .supplier-text  {
+        margin-top: 5rem;
+        margin-left: 8rem;
+    }
+    .child-text  {
+        margin-left: 8rem;
+        margin-top: 1.5rem;
+    }
+    button  {
+        margin-left: 8rem;
+        margin-top: 2.5rem;
+    }
+    .top-right-svg  {
+        margin-left: -12.5rem;
+    }
+    .btm-right-svg  {
+        margin-left: -16.9rem;
+        margin-top: 2.1rem;
+        height: 37rem;
+    }
+}
+@media only screen and (max-width:1784px)  {
+    .top-right-svg  {
+        margin-left: -18rem;
+    }
+    .btm-right-svg  {
+        margin-left: -21.5rem;
+    }
+    .list-1 .list1-text  {
+        margin-top: 1rem;
+        line-height: 2.5rem;
+    }
+    .list-2 .list2-head  {
+        margin-top: -1rem;
+    }
+    .list-2 .list2-text  {
+        margin-top: .5rem;
+        line-height: 2rem;
+    }
+    .list-3 .list3-head  {
+        margin-top:-1.2rem;
+    }
+    .list-3 .list3-text  {
+        margin-top: 0.5rem;
+        line-height: 2rem;
+    }
+
+}
+@media only screen and (max-width:1686px)  {
+    .top-right-svg  {
+        margin-left: -22rem;
+    }
+    .btm-right-svg  {
+        margin-top:3.5rem;
+        margin-left:-26rem;
+        height: 35rem;
+    }
+    .list-1, .list-2, .list-3  {
+        margin-left: -5rem;
+    }
+    
+}
+@media only screen and (max-width:1574px)  {
+    .supplier-text  {
+        font-size:4.4rem;
+    }
+    span  {
+        font-size: 3rem;
+    }
+    .child-text  {
+        font-size: 25px;
+        width:max(35vw,35rem) ;
+    }
+    button  {
+        width: max(15vw,16rem);
+        margin-top: 3rem;
+    }
+    .top-right-svg  {
+        margin-left: -28rem;
+    }
+    .btm-right-svg  {
+        margin-left: -32rem;
+    }
+    .list-1 .list1-head  {
+        font-size: 1.6rem;
+    }
+    .list-1 .list1-text  {
+        font-size:20px;
+    }
+    .list-2 .list2-head  {
+        font-size:1.6rem;
+    }
+    .list-2 .list2-text  {
+        font-size:20px;
+    }
+    .list-3 .list3-head  {
+        font-size: 1.6rem;
+    }
+    .list-3 .list3-text  {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width:1443px)  {
+    .main-body  {
+        height:45rem;
+    }
+    .left-svg  {
+        width: 37vw;
+    }
+    .supplier-text  {
+        margin-top: 6rem;
+
+    }
+    .child-text  {
+        margin-top: 2rem;
+    }
+    button  {
+        margin-top:6rem;
+    }
+    .top-right-svg  {
+        margin-left:-35rem;
+        height: 29rem;
+    }
+    .btm-right-svg  {
+        margin-left: -38.5rem;
+        margin-top:4rem;
+        height: 42rem;
+    }
+    .list-1, .list-2, .list-3  {
+        margin-left:-10rem;
+        margin-top:3rem;
+    }
+}
+@media only screen and (max-width:1312px)  {
+    span  {
+        font-size:2.6rem;
+    }
+    .top-right-svg  {
+        margin-left:-42rem;
+    }
+    .btm-right-svg  {
+        margin-left:-45rem;
+    }
+    .list-1, .list-2, .list-3  {
+        margin-left: -16rem;
+    }
+}
+@media only screen and (max-width:1184px)  {
+    .supplier-text, .child-text, button  {
+        margin-left: 6rem;
+    }
+    span  {
+        font-size: 2.3rem;
+    }
+    .child-text  {
+        
+        width:29rem;
+    }
+    .top-right-svg  {
+        margin-left:-40rem;
+    }
+    .btm-right-svg  {
+        margin-left:-43.3rem;
+    }
+    .list-1, .list-2, .list-3  {
+        margin-left:-12rem;
+    }
+}
+@media only screen and (max-width:1091px)  {
+    .supplier-text  {
+        font-size: 3rem;
+    }
+    span  {
+        
+        font-size:2rem;
+    }
+    .child-text  {
+        width: 25rem;
+    }
+    .top-right-svg  {
+        margin-left:-29rem;
+        width: 64rem;
+    }
+    .btm-right-svg  {
+        margin-left:-48rem;
+    }
+    .list-1, .list-2, .list-3  {
+        margin-top: rem;
+        margin-left:-12rem;
+    }
+    .list-1 .list1-head  {
+        font-size:1.3rem;
+
+    }
+    .list-1 .list1-text  {
+        font-size: 0.9rem;
+    }
+    .list-2 .list2-head  {
+        font-size: 1.3rem;
+    }
+    .list-2 .list2-text  {
+        font-size: 0.9rem;
+    }
+    .list-3 .list3-head  {
+        font-size:1.3rem;
+    }
+    .list-3 .list3-text  {
+
+        font-size:0.9rem;
+    }
+}
+@media only screen and (max-width:915px)  {
+    span  {
+        font-size: 1.2rem;
+    }
+    .left-svg  {
+        height: 40rem;
+    }
+    .top-right-svg  {
+        margin-left: -34rem;
+    }
+    .btm-right-svg  {
+        margin-left:-53rem;
+    }
+    .list-1, .list-2, .list-3  {
+        margin-left:-14rem;
+    }
+}
+@media only screen and (max-width:786px)  {
+    .main-body  {
+        height:57rem;
+    }
+    .left-part  {
+        width:50rem;
+    }
+    .supplier-text  {
+        display: inline;
+        font-size: 2rem;
+        width:80rem;
+        margin: 0;
+        letter-spacing: 2px;
+
+        
+        position: relative;
+        left: 10rem;
+        top: 3rem;
+    }
+    span  {
+        font-size: 2rem;
+    }
+    .child-text  {
+        font-size: 1rem;
+        position: relative;
+        top:1rem;
+        left: 4rem;
+    }
+    button  {
+        position:relative ;
+        top: 30rem;
+        left:3rem;
+    }
+    
+
+
+
+    .top-right-svg  {
+        display: none;
+
+    }
+    .btm-right-svg  {
+        display: none;
+    }
+    
+    .list-1  {
+        position:relative;
+        top: 14rem;
+        left: -17rem;
+    }
+    .list-1 .list1-head  {
+        font-size: 1.4rem;
+    }
+    .list-1 .list1-text  {
+        font-size: 1rem;
+        width: 22rem;
+    }
+    .list-2  {
+        position: relative;
+        top:14rem;
+        left:-17rem;
+    }
+    .list-2 .list2-head  {
+        font-size: 1.4rem;
+    }
+    .list-2 .list2-text  {
+        font-size: 1rem;
+        width: 22rem;
+
+    }
+    .list-3  {
+        position: relative;
+        top: 15rem;
+        left: -17rem;
+    }
+    .list-3 .list3-head  {
+        font-size:1.4rem;
+    }
+    .list-3 .list3-text  {
+        font-size:1rem;
+        width: 22rem;
+    }
+}
+
